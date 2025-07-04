@@ -39,7 +39,7 @@ class Config(object):
 	API_ID = int(os.environ.get("API_ID", 10247139))
 	API_HASH = os.environ.get("API_HASH", "96b46175824223a33737657ab943fd6a")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","7734713952:AAHeKatkKaPjawgC-TepEW-LCLV4O84GdSU")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , " storemyselfbot")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "storemyselfbot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002194600819))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6862493867"))
 	DATABASE_URL = "mongodb+srv://sjha2k5:1234@mainbot.m7t0g8n.mongodb.net/?retryWrites=true&w=majority&appName=mainbot"
