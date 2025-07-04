@@ -42,7 +42,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , " storemyselfbot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002194600819))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6862493867"))
-	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://sjha2k5:1234@mainbot.m7t0g8n.mongodb.net/?retryWrites=true&w=majority&appName=mainbot")
+	DATABASE_URL = "mongodb+srv://sjha2k5:1234@mainbot.m7t0g8n.mongodb.net/?retryWrites=true&w=majority&appName=mainbot"
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002223345096")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002194600819")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
